@@ -1,0 +1,103 @@
+;
+; KmUsbDri.inf
+;
+
+[Version]
+Signature="$WINDOWS NT$"
+Class=USBDevice
+ClassGuid={88BAE032-5A81-49f0-BC3D-A4FF138216D6}
+Provider=%ManufacturerName%
+CatalogFile=KmUsbDri.cat
+DriverVer = 07/17/2021,17.59.16.10
+PnpLockDown=1
+
+[DestinationDirs]
+DefaultDestDir = 12
+KmUsbDri_Device_CoInstaller_CopyFiles = 11
+
+[SourceDisksNames]
+1 = %DiskName%,,,""
+
+[SourceDisksFiles]
+KmUsbDri.sys  = 1,,
+;
+
+
+;*****************************************
+; Install Section
+;*****************************************
+
+[Manufacturer]
+%ManufacturerName%=Standard,NTamd64
+
+[Standard.NTamd64]
+;%KmUsbDri.DeviceDesc%=KmUsbDri_Device, USB\VID_vvvv&PID_pppp	; Original.
+;%KmUsbDri.DeviceDesc%=KmUsbDri_Device, USB\VID_04F2&PID_B5E0	; Target USB Composite Device.0
+;%KmUsbDri.DeviceDesc%=KmUsbDri_Device, USB\COMPOSITE	; Target USB Composite Device Compatible.1
+;%KmUsbDri.DeviceDesc%=KmUsbDri_Device, USB\ROOT_HUB30&VID8086&PID9D2F&REV0021	; Target USB Root Hub (USB3.0).2
+;%KmUsbDri.DeviceDesc%=KmUsbDri_Device, USB\ROOT_HUB30	; Target USB Root Hub (USB3.0) Compatible.3
+;%KmUsbDri.DeviceDesc%=KmUsbDri_Device, USB\PCI\VEN_8086&DEV_9D2F&SUBSYS_11911025&REV_21; Target USB 3.0 extensible.4
+;%KmUsbDri.DeviceDesc%=KmUsbDri_Device, USB\PCI\VEN_8086&DEV_9D2F&SUBSYS_11911025; Target USB 3.0 extensible.4
+;%KmUsbDri.DeviceDesc%=KmUsbDri_Device, USB\PCI\VEN_8086&DEV_9D2F&CC_0C0330; Target USB 3.0 extensible.4
+;%KmUsbDri.DeviceDesc%=KmUsbDri_Device, USB\PCI\VEN_8086&DEV_9D2F&CC_0C03; Target USB 3.0 extensible.4
+;%KmUsbDri.DeviceDesc%=KmUsbDri_Device, USB\VID_0483&PID_374B&MI_00; Target ST-Link debug.
+;%KmUsbDri.DeviceDesc%=KmUsbDri_Device, USB\VID_0483&PID_374B; Target ST-Link debug.
+;%KmUsbDri.DeviceDesc%=KmUsbDri_Device, USB\VID_056A&PID_0374; Target WACOM.
+%KmUsbDri.DeviceDesc%=KmUsbDri_Device, USB\VID_0951&PID_1666; Target Kingston DataTraveler 3.0.
+
+[KmUsbDri_Device.NT]
+CopyFiles=Drivers_Dir
+
+[Drivers_Dir]
+KmUsbDri.sys
+
+[KmUsbDri_Device.NT.HW]
+AddReg=KmUsbDri_AddReg
+
+[KmUsbDri_AddReg]
+; By default, USBDevice class uses iProduct descriptor to name the device in
+; Device Manager on Windows 8 and higher.
+; Uncomment for this device to use %DeviceName% on Windows 8 and higher:
+;HKR,,FriendlyName,,%KmUsbDri.DeviceDesc%
+
+;-------------- Service installation
+[KmUsbDri_Device.NT.Services]
+AddService = KmUsbDri,%SPSVCINST_ASSOCSERVICE%, KmUsbDri_Service_Inst
+
+; -------------- KmUsbDri driver install sections
+[KmUsbDri_Service_Inst]
+DisplayName    = %KmUsbDri.SVCDESC%
+ServiceType    = 1               ; SERVICE_KERNEL_DRIVER
+StartType      = 3               ; SERVICE_DEMAND_START
+ErrorControl   = 1               ; SERVICE_ERROR_NORMAL
+ServiceBinary  = %12%\KmUsbDri.sys
+
+;
+;--- KmUsbDri_Device Coinstaller installation ------
+;
+
+[KmUsbDri_Device.NT.CoInstallers]
+AddReg=KmUsbDri_Device_CoInstaller_AddReg
+CopyFiles=KmUsbDri_Device_CoInstaller_CopyFiles
+
+[KmUsbDri_Device_CoInstaller_AddReg]
+;
+
+
+[KmUsbDri_Device_CoInstaller_CopyFiles]
+;
+
+
+[KmUsbDri_Device.NT.Wdf]
+KmdfService =  KmUsbDri, KmUsbDri_wdfsect
+[KmUsbDri_wdfsect]
+KmdfLibraryVersion = 1.15
+
+[Strings]
+SPSVCINST_ASSOCSERVICE= 0x00000002
+ManufacturerName="<Your manufacturer name>" ;TODO: Replace with your manufacturer name
+ClassName="Universal Serial Bus devices"
+DiskName = "KmUsbDri Installation Disk"
+KmUsbDri.DeviceDesc = "KmUsbDri Device"
+KmUsbDri.SVCDESC = "KmUsbDri Service"
+REG_MULTI_SZ = 0x00010000
