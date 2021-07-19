@@ -1,0 +1,112 @@
+Microsoft Windows [Version 10.0.19043.1110]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\WINDOWS\system32>cd C:\Users\WDKRemoteUser\Desktop\UsbSamp1\test exe
+
+C:\Users\WDKRemoteUser\Desktop\UsbSamp1\test exe>usbsamp.exe -u
+Attempting to open \\?\usb#vid_0951&pid_1666#e0d55ea4932ff49119c48ebf#{00873fdf-61a8-11d1-aa5e-00c04fb1728b}
+DeviceName = (\\?\usb#vid_0951&pid_1666#e0d55ea4932ff49119c48ebf#{00873fdf-61a8-11d1-aa5e-00c04fb1728b})
+request complete, success = 1 nBytes = 44
+
+===================
+USB_CONFIGURATION_DESCRIPTOR
+bLength = 0x9, decimal 9
+bDescriptorType = 0x2 ( USB_CONFIGURATION_DESCRIPTOR_TYPE )
+wTotalLength = 0x2c, decimal 44
+bNumInterfaces = 0x1, decimal 1
+bConfigurationValue = 0x1, decimal 1
+iConfiguration = 0x0, decimal 0
+bmAttributes = 0x80 ( USB_CONFIG_BUS_POWERED )
+MaxPower = 0x25, decimal 37
+
+-----------------------------
+USB_INTERFACE_DESCRIPTOR #0
+bLength = 0x9
+bDescriptorType = 0x4 ( USB_INTERFACE_DESCRIPTOR_TYPE )
+bInterfaceNumber = 0x0
+bAlternateSetting = 0x0
+bNumEndpoints = 0x2
+bInterfaceClass = 0x8
+bInterfaceSubClass = 0x6
+bInterfaceProtocol = 0x50
+bInterface = 0x0
+------------------------------
+USB_ENDPOINT_DESCRIPTOR for Pipe00
+bLength = 0x7
+bDescriptorType = 0x5 ( USB_ENDPOINT_DESCRIPTOR_TYPE )
+bEndpointAddress= 0x81 ( INPUT )
+bmAttributes= 0x2 ( USB_ENDPOINT_TYPE_BULK )
+wMaxPacketSize= 0x400, decimal 1024
+bInterval = 0x0, decimal 0
+------------------------------
+USB_SUPERSPEED_ENDPOINT_COMPANION_DESCRIPTOR for Pipe00
+bLength = 0x6
+bDescriptorType = 0x30 ( USB_SUPERSPEED_ENDPOINT_COMPANION_DESCRIPTOR_TYPE )
+bMaxBurst = 0xf, decimal 15
+bmAttributes = 0x0
+wBytesPerInterval = 0x0, decimal 0
+------------------------------
+USB_ENDPOINT_DESCRIPTOR for Pipe01
+bLength = 0x7
+bDescriptorType = 0x5 ( USB_ENDPOINT_DESCRIPTOR_TYPE )
+bEndpointAddress= 0x2 ( OUTPUT )
+bmAttributes= 0x2 ( USB_ENDPOINT_TYPE_BULK )
+wMaxPacketSize= 0x400, decimal 1024
+bInterval = 0x0, decimal 0
+------------------------------
+USB_SUPERSPEED_ENDPOINT_COMPANION_DESCRIPTOR for Pipe01
+bLength = 0x6
+bDescriptorType = 0x30 ( USB_SUPERSPEED_ENDPOINT_COMPANION_DESCRIPTOR_TYPE )
+bMaxBurst = 0xf, decimal 15
+bmAttributes = 0x0
+wBytesPerInterval = 0x0, decimal 0
+
+C:\Users\WDKRemoteUser\Desktop\UsbSamp1\test exe>usbsamp.exe -r 1024 -w 1024 -c 100 -v
+Attempting to open \\?\usb#vid_0951&pid_1666#e0d55ea4932ff49119c48ebf#{00873fdf-61a8-11d1-aa5e-00c04fb1728b}
+completeDeviceName = (\\?\usb#vid_0951&pid_1666#e0d55ea4932ff49119c48ebf#{00873fdf-61a8-11d1-aa5e-00c04fb1728b}\PIPE00)
+Opened successfully.
+Attempting to open \\?\usb#vid_0951&pid_1666#e0d55ea4932ff49119c48ebf#{00873fdf-61a8-11d1-aa5e-00c04fb1728b}
+completeDeviceName = (\\?\usb#vid_0951&pid_1666#e0d55ea4932ff49119c48ebf#{00873fdf-61a8-11d1-aa5e-00c04fb1728b}\PIPE01)
+Opened successfully.
+<PIPE01> W (0000) : request 001024 bytes -- 001024 bytes written
+^C
+C:\Users\WDKRemoteUser\Desktop\UsbSamp1\test exe>usbsamp.exe -r 65536
+Attempting to open \\?\usb#vid_0951&pid_1666#e0d55ea4932ff49119c48ebf#{00873fdf-61a8-11d1-aa5e-00c04fb1728b}
+completeDeviceName = (\\?\usb#vid_0951&pid_1666#e0d55ea4932ff49119c48ebf#{00873fdf-61a8-11d1-aa5e-00c04fb1728b}\PIPE00)
+Opened successfully.
+^C
+C:\Users\WDKRemoteUser\Desktop\UsbSamp1\test exe>usbsamp.exe -w 65536
+Attempting to open \\?\usb#vid_0951&pid_1666#e0d55ea4932ff49119c48ebf#{00873fdf-61a8-11d1-aa5e-00c04fb1728b}
+completeDeviceName = (\\?\usb#vid_0951&pid_1666#e0d55ea4932ff49119c48ebf#{00873fdf-61a8-11d1-aa5e-00c04fb1728b}\PIPE01)
+Opened successfully.
+^C
+C:\Users\WDKRemoteUser\Desktop\UsbSamp1\test exe>usbsamp.exe -r 65536 -i pipe02
+Attempting to open \\?\usb#vid_0951&pid_1666#e0d55ea4932ff49119c48ebf#{00873fdf-61a8-11d1-aa5e-00c04fb1728b}
+completeDeviceName = (\\?\usb#vid_0951&pid_1666#e0d55ea4932ff49119c48ebf#{00873fdf-61a8-11d1-aa5e-00c04fb1728b}\pipe02)
+Failed to open (\\?\usb#vid_0951&pid_1666#e0d55ea4932ff49119c48ebf#{00873fdf-61a8-11d1-aa5e-00c04fb1728b}\pipe02) = 1
+C:\Users\WDKRemoteUser\Desktop\UsbSamp1\test exe>usbsamp.exe -w 65536 -o pipe03
+Attempting to open \\?\usb#vid_0951&pid_1666#e0d55ea4932ff49119c48ebf#{00873fdf-61a8-11d1-aa5e-00c04fb1728b}
+completeDeviceName = (\\?\usb#vid_0951&pid_1666#e0d55ea4932ff49119c48ebf#{00873fdf-61a8-11d1-aa5e-00c04fb1728b}\pipe03)
+Failed to open (\\?\usb#vid_0951&pid_1666#e0d55ea4932ff49119c48ebf#{00873fdf-61a8-11d1-aa5e-00c04fb1728b}\pipe03) = 1
+C:\Users\WDKRemoteUser\Desktop\UsbSamp1\test exe>usbsamp.exe -r 512 -i pipe04
+Attempting to open \\?\usb#vid_0951&pid_1666#e0d55ea4932ff49119c48ebf#{00873fdf-61a8-11d1-aa5e-00c04fb1728b}
+completeDeviceName = (\\?\usb#vid_0951&pid_1666#e0d55ea4932ff49119c48ebf#{00873fdf-61a8-11d1-aa5e-00c04fb1728b}\pipe04)
+Failed to open (\\?\usb#vid_0951&pid_1666#e0d55ea4932ff49119c48ebf#{00873fdf-61a8-11d1-aa5e-00c04fb1728b}\pipe04) = 1
+C:\Users\WDKRemoteUser\Desktop\UsbSamp1\test exe>usbsamp.exe -w 512 -o pipe05
+Attempting to open \\?\usb#vid_0951&pid_1666#e0d55ea4932ff49119c48ebf#{00873fdf-61a8-11d1-aa5e-00c04fb1728b}
+completeDeviceName = (\\?\usb#vid_0951&pid_1666#e0d55ea4932ff49119c48ebf#{00873fdf-61a8-11d1-aa5e-00c04fb1728b}\pipe05)
+Failed to open (\\?\usb#vid_0951&pid_1666#e0d55ea4932ff49119c48ebf#{00873fdf-61a8-11d1-aa5e-00c04fb1728b}\pipe05) = 1
+C:\Users\WDKRemoteUser\Desktop\UsbSamp1\test exe>usbsamp.exe -w 1024 -o pipe05 -r 1024 -i pipe04 -c 100 -v
+Attempting to open \\?\usb#vid_0951&pid_1666#e0d55ea4932ff49119c48ebf#{00873fdf-61a8-11d1-aa5e-00c04fb1728b}
+completeDeviceName = (\\?\usb#vid_0951&pid_1666#e0d55ea4932ff49119c48ebf#{00873fdf-61a8-11d1-aa5e-00c04fb1728b}\pipe04)
+Failed to open (\\?\usb#vid_0951&pid_1666#e0d55ea4932ff49119c48ebf#{00873fdf-61a8-11d1-aa5e-00c04fb1728b}\pipe04) = 1Attempting to open \\?\usb#vid_0951&pid_1666#e0d55ea4932ff49119c48ebf#{00873fdf-61a8-11d1-aa5e-00c04fb1728b}
+completeDeviceName = (\\?\usb#vid_0951&pid_1666#e0d55ea4932ff49119c48ebf#{00873fdf-61a8-11d1-aa5e-00c04fb1728b}\pipe05)
+Failed to open (\\?\usb#vid_0951&pid_1666#e0d55ea4932ff49119c48ebf#{00873fdf-61a8-11d1-aa5e-00c04fb1728b}\pipe05) = 1
+C:\Users\WDKRemoteUser\Desktop\UsbSamp1\test exe>usbsamp.exe -r 1024 -w 1024 -c 100 -x
+Attempting to open \\?\usb#vid_0951&pid_1666#e0d55ea4932ff49119c48ebf#{00873fdf-61a8-11d1-aa5e-00c04fb1728b}
+completeDeviceName = (\\?\usb#vid_0951&pid_1666#e0d55ea4932ff49119c48ebf#{00873fdf-61a8-11d1-aa5e-00c04fb1728b}\PIPE00)
+Opened successfully.
+Attempting to open \\?\usb#vid_0951&pid_1666#e0d55ea4932ff49119c48ebf#{00873fdf-61a8-11d1-aa5e-00c04fb1728b}
+completeDeviceName = (\\?\usb#vid_0951&pid_1666#e0d55ea4932ff49119c48ebf#{00873fdf-61a8-11d1-aa5e-00c04fb1728b}\PIPE01)
+Opened successfully.
+<PIPE01> W (0000) : request 001024 bytes -- 001024 bytes written

@@ -1,0 +1,843 @@
+Microsoft Windows [Version 10.0.19043.1110]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\WINDOWS\system32>cd C:\Users\WDKRemoteUser\Desktop\UsbSamp1
+
+C:\Users\WDKRemoteUser\Desktop\UsbSamp1>pnputil /a usbsamp.inf
+Microsoft PnP Utility
+
+Processing inf :            usbsamp.inf
+Driver package added successfully.
+Published name :            oem68.inf
+
+
+Total attempted:              1
+Number successfully imported: 1
+
+
+C:\Users\WDKRemoteUser\Desktop\UsbSamp1>pnputil /enum-drivers
+Microsoft PnP Utility
+
+Published Name:     oem27.inf
+Original Name:      430cdc.inf
+Provider Name:      Texas Instruments
+Class Name:         Ports (COM & LPT)
+Class GUID:         {4d36e978-e325-11ce-bfc1-08002be10318}
+Driver Version:     10/27/2016 1.5.0.0
+Signer Name:        Texas Instruments Incorporated
+
+Published Name:     oem23.inf
+Original Name:      atm6124usbcdc.inf
+Provider Name:      ATMEL Corp.
+Class Name:         Ports (COM & LPT)
+Class GUID:         {4d36e978-e325-11ce-bfc1-08002be10318}
+Driver Version:     02/21/2018 1.0.0.0
+Signer Name:        Microchip Technology Inc.
+
+Published Name:     oem1.inf
+Original Name:      bazisvirtualcdbus.inf
+Provider Name:      SysProgs.org
+Class Name:         Storage controllers
+Class GUID:         {4d36e97b-e325-11ce-bfc1-08002be10318}
+Driver Version:     06/02/2015 4.1.1.0
+Signer Name:        Sysprogs OU
+
+Published Name:     oem60.inf
+Original Name:      ch341ser.inf
+Provider Name:      wch.cn
+Class Name:         Ports (COM & LPT)
+Class GUID:         {4d36e978-e325-11ce-bfc1-08002be10318}
+Driver Version:     08/08/2014 3.4.2014.8
+Signer Name:        Microsoft Windows Hardware Compatibility Publisher
+
+Published Name:     oem0.inf
+Original Name:      dc3du.inf
+Provider Name:      Microsoft
+Class Name:         Universal Serial Bus controllers
+Class GUID:         {36fc9e60-c465-11cf-8056-444553540000}
+Driver Version:     05/18/2011 8.20.409.0
+Signer Name:        Microsoft Windows Hardware Compatibility Publisher
+
+Published Name:     oem65.inf
+Original Name:      evsbc9.inf
+Provider Name:      ELTIMA Software
+Class Name:         System devices
+Class GUID:         {4d36e97d-e325-11ce-bfc1-08002be10318}
+Driver Version:     07/20/2017 9.0.369.0
+Signer Name:        Microsoft Windows Hardware Compatibility Publisher
+
+Published Name:     oem71.inf
+Original Name:      evserial9.inf
+Provider Name:      ELTIMA Software
+Class Name:         Ports (COM & LPT)
+Class GUID:         {4d36e978-e325-11ce-bfc1-08002be10318}
+Driver Version:     07/20/2017 9.0.369.0
+Signer Name:        Microsoft Windows Hardware Compatibility Publisher
+
+Published Name:     oem15.inf
+Original Name:      e_wgenep.inf
+Provider Name:      EPSON
+Class Name:         Universal Serial Bus controllers
+Class GUID:         {36fc9e60-c465-11cf-8056-444553540000}
+Driver Version:     11/27/2017 1.2.0.9
+Signer Name:        Microsoft Windows Hardware Compatibility Publisher
+
+Published Name:     oem4.inf
+Original Name:      ftdibus.inf
+Provider Name:      FTDI
+Class Name:         Universal Serial Bus controllers
+Class GUID:         {36fc9e60-c465-11cf-8056-444553540000}
+Driver Version:     08/26/2014 2.12.0.0
+Signer Name:        Microsoft Windows Hardware Compatibility Publisher
+
+Published Name:     oem28.inf
+Original Name:      ftdibus.inf
+Provider Name:      FTDI
+Class Name:         Universal Serial Bus controllers
+Class GUID:         {36fc9e60-c465-11cf-8056-444553540000}
+Driver Version:     03/30/2010 2.6.2.0
+Signer Name:        NXP Semiconductors USA. Inc.
+
+Published Name:     oem86.inf
+Original Name:      ftdiport.inf
+Provider Name:      FTDI
+Class Name:         Ports (COM & LPT)
+Class GUID:         {4d36e978-e325-11ce-bfc1-08002be10318}
+Driver Version:     08/26/2014 2.12.0.0
+Signer Name:        Microsoft Windows Hardware Compatibility Publisher
+
+Published Name:     oem94.inf
+Original Name:      ftdiport.inf
+Provider Name:      FTDI
+Class Name:         Ports (COM & LPT)
+Class GUID:         {4d36e978-e325-11ce-bfc1-08002be10318}
+Driver Version:     10/22/2009 2.6.0.0
+Signer Name:        NXP Semiconductors USA. Inc.
+
+Published Name:     oem84.inf
+Original Name:      hdbusext.inf
+Provider Name:      Intel Corporation
+Class Name:         Extensions
+Class GUID:         {e2f84ce7-8efa-411c-aa69-97454ca4cb57}
+Extension ID:       {69cb4edd-bafe-4f9a-9135-c1f284d6860d}
+Driver Version:     11/18/2018 25.20.100.6373
+Signer Name:        Microsoft Windows Hardware Compatibility Publisher
+
+Published Name:     oem66.inf
+Original Name:      heci.inf
+Provider Name:      Intel
+Class Name:         System devices
+Class GUID:         {4d36e97d-e325-11ce-bfc1-08002be10318}
+Driver Version:     11/16/2016 11.6.0.1042
+Signer Name:        Microsoft Windows Hardware Compatibility Publisher
+
+Published Name:     oem44.inf
+Original Name:      heci.inf
+Provider Name:      Intel
+Class Name:         System devices
+Class GUID:         {4d36e97d-e325-11ce-bfc1-08002be10318}
+Driver Version:     04/11/2018 1815.12.0.2021
+Signer Name:        Microsoft Windows Hardware Compatibility Publisher
+
+Published Name:     oem38.inf
+Original Name:      iaahcic.inf
+Provider Name:      Intel Corporation
+Class Name:         IDE ATA/ATAPI controllers
+Class GUID:         {4d36e96a-e325-11ce-bfc1-08002be10318}
+Driver Version:     12/20/2018 17.0.0.1072
+Signer Name:        Microsoft Windows Hardware Compatibility Publisher
+
+Published Name:     oem50.inf
+Original Name:      intcaudiobus.inf
+Provider Name:      Intel(R) Corporation
+Class Name:         System devices
+Class GUID:         {4d36e97d-e325-11ce-bfc1-08002be10318}
+Driver Version:     07/27/2017 9.21.0.2658
+Signer Name:        Microsoft Windows Hardware Compatibility Publisher
+
+Published Name:     oem31.inf
+Original Name:      intcoed.inf
+Provider Name:      Intel(R) Corporation
+Class Name:         System devices
+Class GUID:         {4d36e97d-e325-11ce-bfc1-08002be10318}
+Driver Version:     07/27/2017 9.21.0.2658
+Signer Name:        Microsoft Windows Hardware Compatibility Publisher
+
+Published Name:     oem98.inf
+Original Name:      kabylakesystem.inf
+Provider Name:      INTEL
+Class Name:         System devices
+Class GUID:         {4d36e97d-e325-11ce-bfc1-08002be10318}
+Driver Version:     10/03/2016 10.1.1.38
+Signer Name:        Microsoft Windows Hardware Compatibility Publisher
+
+Published Name:     oem89.inf
+Original Name:      keyboardnotification.inf
+Provider Name:      Microsoft
+Class Name:         Human Interface Devices
+Class GUID:         {745a17a0-74d3-11d0-b6fe-00a0c90f57da}
+Driver Version:     05/14/2018 3.3.207.0
+Signer Name:        Microsoft Windows Hardware Compatibility Publisher
+
+Published Name:     oem46.inf
+Original Name:      kmusbdri.inf
+Provider Name:      <Your manufacturer name>
+Class Name:         Universal Serial Bus devices
+Class GUID:         {88bae032-5a81-49f0-bc3d-a4ff138216d6}
+Driver Version:     07/17/2021 16.39.42.816
+Signer Name:        WDKTestCert 39391,132689370309885134
+
+Published Name:     oem63.inf
+Original Name:      kmusbdri.inf
+Provider Name:      <Your manufacturer name>
+Class Name:         Universal Serial Bus devices
+Class GUID:         {88bae032-5a81-49f0-bc3d-a4ff138216d6}
+Driver Version:     07/18/2021 18.34.27.648
+Signer Name:        WDKTestCert 39391,132689370309885134
+
+Published Name:     oem59.inf
+Original Name:      kmusbdri.inf
+Provider Name:      <Your manufacturer name>
+Class Name:         Universal Serial Bus devices
+Class GUID:         {88bae032-5a81-49f0-bc3d-a4ff138216d6}
+Driver Version:     07/17/2021 17.59.16.10
+Signer Name:        WDKTestCert 39391,132689370309885134
+
+Published Name:     oem49.inf
+Original Name:      lmdriver.inf
+Provider Name:      Acer Incorporated
+Class Name:         Human Interface Devices
+Class GUID:         {745a17a0-74d3-11d0-b6fe-00a0c90f57da}
+Driver Version:     04/06/2017 8.0.0.3
+Signer Name:        Microsoft Windows Hardware Compatibility Publisher
+
+Published Name:     oem35.inf
+Original Name:      lpc-link.inf
+Provider Name:      Code Red Technologies
+Class Name:         Universal Serial Bus controllers
+Class GUID:         {36fc9e60-c465-11cf-8056-444553540000}
+Driver Version:     08/06/2009 7.0.7600.16385
+Signer Name:        NXP Semiconductors USA. Inc.
+
+Published Name:     oem97.inf
+Original Name:      lpc-linkii-hid.inf
+Provider Name:      NXP
+Class Name:         Human Interface Devices
+Class GUID:         {745a17a0-74d3-11d0-b6fe-00a0c90f57da}
+Driver Version:     11/03/2014 1.0.0.1
+Signer Name:        NXP Semiconductors USA. Inc.
+
+Published Name:     oem72.inf
+Original Name:      lpc-vcom.inf
+Provider Name:      NXP
+Class Name:         Ports (COM & LPT)
+Class GUID:         {4d36e978-e325-11ce-bfc1-08002be10318}
+Driver Version:     11/21/2014 2.0.0.0
+Signer Name:        NXP Semiconductors USA. Inc.
+
+Published Name:     oem5.inf
+Original Name:      lpc11uxx_vcom.inf
+Provider Name:      NXP LPC11Uxx VCOM
+Class Name:         Ports (COM & LPT)
+Class GUID:         {4d36e978-e325-11ce-bfc1-08002be10318}
+Driver Version:     07/10/2017 1.0.0.0
+Signer Name:        Ashling Microsystems Ltd
+
+Published Name:     oem45.inf
+Original Name:      massdfu.inf
+Provider Name:      Philips (NXP)
+Class Name:         Universal Serial Bus controllers
+Class GUID:         {36fc9e60-c465-11cf-8056-444553540000}
+Driver Version:     03/11/2010 3.12.0.0
+Signer Name:        NXP Semiconductors USA. Inc.
+
+Published Name:     oem40.inf
+Original Name:      mcu-link-hid.inf
+Provider Name:      NXP
+Class Name:         Human Interface Devices
+Class GUID:         {745a17a0-74d3-11d0-b6fe-00a0c90f57da}
+Driver Version:     09/09/2020 1.0.0.0
+Signer Name:        NXP Semiconductors N.V.
+
+Published Name:     oem21.inf
+Original Name:      mcu-link-vcom.inf
+Provider Name:      NXP
+Class Name:         Ports (COM & LPT)
+Class GUID:         {4d36e978-e325-11ce-bfc1-08002be10318}
+Driver Version:     09/09/2020 1.0.0.0
+Signer Name:        NXP Semiconductors N.V.
+
+Published Name:     oem88.inf
+Original Name:      msp430tools.inf
+Provider Name:      Texas Instruments
+Class Name:         Ports (COM & LPT)
+Class GUID:         {4d36e978-e325-11ce-bfc1-08002be10318}
+Driver Version:     10/27/2016 1.6.0.0
+Signer Name:        Texas Instruments Incorporated
+
+Published Name:     oem61.inf
+Original Name:      rtsuer.inf
+Provider Name:      Realtek Semiconductor Corp.
+Class Name:         Universal Serial Bus controllers
+Class GUID:         {36fc9e60-c465-11cf-8056-444553540000}
+Driver Version:     02/27/2018 10.0.16299.31241
+Signer Name:        Microsoft Windows Hardware Compatibility Publisher
+
+Published Name:     oem32.inf
+Original Name:      serialcdc_interface.inf
+Provider Name:      Freescale, P&E Micro (http://www.pemicro.com/osbdm, http://www.pemicro.com/opensda)
+Class Name:         Ports (COM & LPT)
+Class GUID:         {4d36e978-e325-11ce-bfc1-08002be10318}
+Driver Version:     04/24/2009 1.1.2600.1
+Signer Name:        P&E Microcomputer Systems, Inc.
+
+Published Name:     oem62.inf
+Original Name:      stlink_bridge_winusb.inf
+Provider Name:      STMicroelectronics
+Class Name:         Universal Serial Bus devices
+Class GUID:         {88bae032-5a81-49f0-bc3d-a4ff138216d6}
+Driver Version:     06/08/2017 1.0.0.0
+Signer Name:        STMICROELECTRONICS (GRENOBLE 2) SAS
+
+Published Name:     oem79.inf
+Original Name:      stlink_dbg_winusb.inf
+Provider Name:      STMicroelectronics
+Class Name:         Universal Serial Bus devices
+Class GUID:         {88bae032-5a81-49f0-bc3d-a4ff138216d6}
+Driver Version:     06/08/2017 2.1.0.0
+Signer Name:        STMICROELECTRONICS (GRENOBLE 2) SAS
+
+Published Name:     oem52.inf
+Original Name:      stlink_dbg_winusb.inf
+Provider Name:      STMicroelectronics
+Class Name:         Universal Serial Bus devices
+Class GUID:         {88bae032-5a81-49f0-bc3d-a4ff138216d6}
+Driver Version:     06/08/2017 2.1.0.0
+Signer Name:        STMICROELECTRONICS (GRENOBLE 2) SAS
+
+Published Name:     oem29.inf
+Original Name:      stlink_dbg_winusb.inf
+Provider Name:      STMicroelectronics
+Class Name:         Universal Serial Bus devices
+Class GUID:         {88bae032-5a81-49f0-bc3d-a4ff138216d6}
+Driver Version:     01/21/2013 1.1.0.0
+Signer Name:        STMicroelectronics
+
+Published Name:     oem92.inf
+Original Name:      stlink_vcp.inf
+Provider Name:      STMicroelectronics
+Class Name:         Ports (COM & LPT)
+Class GUID:         {4d36e978-e325-11ce-bfc1-08002be10318}
+Driver Version:     06/08/2017 2.1.0.0
+Signer Name:        STMICROELECTRONICS (GRENOBLE 2) SAS
+
+Published Name:     oem30.inf
+Original Name:      stlink_vcp.inf
+Provider Name:      STMicroelectronics
+Class Name:         Ports (COM & LPT)
+Class GUID:         {4d36e978-e325-11ce-bfc1-08002be10318}
+Driver Version:     12/10/2013 1.0.0.0
+Signer Name:        STMicroelectronics
+
+Published Name:     oem48.inf
+Original Name:      stlink_vcp.inf
+Provider Name:      STMicroelectronics
+Class Name:         Ports (COM & LPT)
+Class GUID:         {4d36e978-e325-11ce-bfc1-08002be10318}
+Driver Version:     06/08/2017 2.1.0.0
+Signer Name:        STMICROELECTRONICS (GRENOBLE 2) SAS
+
+Published Name:     oem37.inf
+Original Name:      stm32bootloader.inf
+Provider Name:      STMicroelectronics
+Class Name:         Universal Serial Bus devices
+Class GUID:         {88bae032-5a81-49f0-bc3d-a4ff138216d6}
+Driver Version:     05/07/2018 1.1.0.0
+Signer Name:        Microsoft Windows Hardware Compatibility Publisher
+
+Published Name:     oem9.inf
+Original Name:      stmcdc.inf
+Provider Name:      STMicroelectronics
+Class Name:         Ports (COM & LPT)
+Class GUID:         {4d36e978-e325-11ce-bfc1-08002be10318}
+Driver Version:     08/02/2013 1.4.0.0
+Signer Name:        STMicroelectronics
+
+Published Name:     oem57.inf
+Original Name:      sunrisepoint-lpsystem.inf
+Provider Name:      INTEL
+Class Name:         System devices
+Class GUID:         {4d36e97d-e325-11ce-bfc1-08002be10318}
+Driver Version:     10/03/2016 10.1.1.38
+Signer Name:        Microsoft Windows Hardware Compatibility Publisher
+
+Published Name:     oem77.inf
+Original Name:      sunrisepoint-lpsystemthermal.inf
+Provider Name:      INTEL
+Class Name:         System devices
+Class GUID:         {4d36e97d-e325-11ce-bfc1-08002be10318}
+Driver Version:     01/01/1970 10.1.1.38
+Signer Name:        Microsoft Windows Hardware Compatibility Publisher
+
+Published Name:     oem83.inf
+Original Name:      ti_ftdi_port.inf
+Provider Name:      Texas Instruments
+Class Name:         Ports (COM & LPT)
+Class GUID:         {4d36e978-e325-11ce-bfc1-08002be10318}
+Driver Version:     09/22/2019 2.12.28.0
+Signer Name:        Texas Instruments Incorporated
+
+Published Name:     oem80.inf
+Original Name:      usbuart3410.inf
+Provider Name:      Texas Instruments, Inc
+Class Name:         Ports (COM & LPT)
+Class GUID:         {4d36e978-e325-11ce-bfc1-08002be10318}
+Driver Version:     10/20/2009 6.5.9017.0
+Signer Name:        Microsoft Windows Hardware Compatibility Publisher
+
+Published Name:     oem58.inf
+Original Name:      wachidrouter_pro.inf
+Provider Name:      Wacom
+Class Name:         Human Interface Devices
+Class GUID:         {745a17a0-74d3-11d0-b6fe-00a0c90f57da}
+Driver Version:     03/30/2020 3.8.10.30
+Signer Name:        Microsoft Windows Hardware Compatibility Publisher
+
+Published Name:     oem75.inf
+Original Name:      wacomrouterfilter.inf
+Provider Name:      Wacom Technology
+Class Name:         Mice and other pointing devices
+Class GUID:         {4d36e96f-e325-11ce-bfc1-08002be10318}
+Driver Version:     03/30/2020 3.8.10.30
+Signer Name:        Microsoft Windows Hardware Compatibility Publisher
+
+Published Name:     oem56.inf
+Original Name:      wacpaper.inf
+Provider Name:      Wacom Co Ltd.
+Class Name:         Universal Serial Bus devices
+Class GUID:         {88bae032-5a81-49f0-bc3d-a4ff138216d6}
+Driver Version:     02/25/2017 1.0.0.1
+Signer Name:        Microsoft Windows Hardware Compatibility Publisher
+
+Published Name:     oem33.inf
+Original Name:      wirelessdevice.inf
+Provider Name:      Surface
+Class Name:         System devices
+Class GUID:         {4d36e97d-e325-11ce-bfc1-08002be10318}
+Driver Version:     02/08/2018 1.0.104.0
+Signer Name:        Microsoft Windows Hardware Compatibility Publisher
+
+Published Name:     oem99.inf
+Original Name:      wirelesskeyboardfilter.inf
+Provider Name:      Surface
+Class Name:         Keyboards
+Class GUID:         {4d36e96b-e325-11ce-bfc1-08002be10318}
+Driver Version:     02/08/2018 1.0.104.0
+Signer Name:        Microsoft Windows Hardware Compatibility Publisher
+
+Published Name:     oem6.inf
+Original Name:      xds110_ports.inf
+Provider Name:      Texas Instruments Incorporated
+Class Name:         Ports (COM & LPT)
+Class GUID:         {4d36e978-e325-11ce-bfc1-08002be10318}
+Driver Version:     04/05/2016 1.7.0.0
+Signer Name:        Texas Instruments Incorporated
+
+Published Name:     oem8.inf
+Original Name:      xds110_ports.inf
+Provider Name:      Texas Instruments Incorporated
+Class Name:         Ports (COM & LPT)
+Class GUID:         {4d36e978-e325-11ce-bfc1-08002be10318}
+Driver Version:     02/10/2020 2.0.0.2
+Signer Name:        Texas Instruments Incorporated
+
+Published Name:     oem95.inf
+Original Name:      xds2xx_usb_cmp.inf
+Provider Name:      Texas Instruments Incorporated
+Class Name:         Ports (COM & LPT)
+Class GUID:         {4d36e978-e325-11ce-bfc1-08002be10318}
+Driver Version:     09/24/2019 6.0.3.1
+Signer Name:        Texas Instruments Incorporated
+
+Published Name:     oem13.inf
+Original Name:      android_winusb.inf
+Provider Name:      Wacom Co., Ltd.
+Class Name:         Android Devices
+Class GUID:         {3f966bd9-fa04-4ec5-991c-d326973b5128}
+Driver Version:     03/09/2013 1.0.0.1
+Signer Name:        Microsoft Windows Hardware Compatibility Publisher
+
+Published Name:     oem43.inf
+Original Name:      atheros_bth.inf
+Provider Name:      Qualcomm Atheros Communications
+Class Name:         Bluetooth
+Class GUID:         {e0cbf06c-cd8b-4647-bb8a-263b43f0f974}
+Driver Version:     04/18/2017 10.0.0.309
+Signer Name:        Microsoft Windows Hardware Compatibility Publisher
+
+Published Name:     oem42.inf
+Original Name:      cebal2_x64.inf
+Provider Name:      Texas Instruments
+Class Name:         Cebal controlled devices
+Class GUID:         {d6c5946b-e0b2-49d8-872f-4c9f7bc2d87d}
+Driver Version:     01/27/2014 2.50.0.1
+Signer Name:        Texas Instruments, Inc.
+
+Published Name:     oem55.inf
+Original Name:      echo.inf
+Provider Name:      LUXSHARE-ICT
+Class Name:         Sample Device
+Class GUID:         {78a1c341-4539-11d3-b88d-00c04fad5171}
+Driver Version:     05/14/2020 13.10.36.896
+Signer Name:        Microsoft Windows Hardware Compatibility Publisher
+
+Published Name:     oem3.inf
+Original Name:      es016e.inf
+Provider Name:      EPSON
+Class Name:         Imaging devices
+Class GUID:         {6bdd1fc6-810f-11d0-bec7-08002be2092f}
+Driver Version:     11/30/2017 1.0.0.0
+Signer Name:        Microsoft Windows Hardware Compatibility Publisher
+
+Published Name:     oem36.inf
+Original Name:      e_wf1uoe.inf
+Provider Name:      EPSON
+Class Name:         Printers
+Class GUID:         {4d36e979-e325-11ce-bfc1-08002be10318}
+Driver Version:     09/28/2020 2.62.1.0
+Signer Name:        Microsoft Windows Hardware Compatibility Publisher
+
+Published Name:     oem39.inf
+Original Name:      hdxsst4da.inf
+Provider Name:      Realtek Semiconductor Corp.
+Class Name:         Sound, video and game controllers
+Class GUID:         {4d36e96c-e325-11ce-bfc1-08002be10318}
+Driver Version:     04/13/2017 6.0.1.8122
+Signer Name:        Microsoft Windows Hardware Compatibility Publisher
+
+Published Name:     oem26.inf
+Original Name:      hdxsst4da.inf
+Provider Name:      Realtek Semiconductor Corp.
+Class Name:         Sound, video and game controllers
+Class GUID:         {4d36e96c-e325-11ce-bfc1-08002be10318}
+Driver Version:     08/04/2020 6.0.9000.1
+Signer Name:        Microsoft Windows Hardware Compatibility Publisher
+
+Published Name:     oem64.inf
+Original Name:      igdlh64.inf
+Provider Name:      Intel Corporation
+Class Name:         Display adapters
+Class GUID:         {4d36e968-e325-11ce-bfc1-08002be10318}
+Driver Version:     11/18/2018 25.20.100.6373
+Signer Name:        Microsoft Windows Hardware Compatibility Publisher
+
+Published Name:     oem67.inf
+Original Name:      intcdaud.inf
+Provider Name:      Intel(R) Corporation
+Class Name:         Sound, video and game controllers
+Class GUID:         {4d36e96c-e325-11ce-bfc1-08002be10318}
+Driver Version:     05/02/2017 10.22.1.100
+Signer Name:        Microsoft Windows Hardware Compatibility Publisher
+
+Published Name:     oem93.inf
+Original Name:      intcdaud.inf
+Provider Name:      Intel(R) Corporation
+Class Name:         Sound, video and game controllers
+Class GUID:         {4d36e96c-e325-11ce-bfc1-08002be10318}
+Driver Version:     09/04/2018 10.26.0.1
+Signer Name:        Microsoft Windows Hardware Compatibility Publisher
+
+Published Name:     oem11.inf
+Original Name:      intcdmic.inf
+Provider Name:      Intel(R) Corporation
+Class Name:         Sound, video and game controllers
+Class GUID:         {4d36e96c-e325-11ce-bfc1-08002be10318}
+Driver Version:     09/05/2017 9.21.2658.10
+Signer Name:        Microsoft Windows Hardware Compatibility Publisher
+
+Published Name:     oem41.inf
+Original Name:      kmdfdriver1.inf
+Provider Name:      <Your manufacturer name>
+Class Name:         Sample Device
+Class GUID:         {78a1c341-4539-11d3-b88d-00c04fad5171}
+Driver Version:     06/28/2021 8.2.27.913
+Signer Name:        WDKTestCert 39391,132689370309885134
+
+Published Name:     oem24.inf
+Original Name:      kmdfdriver1.inf
+Provider Name:      <Your manufacturer name>
+Class Name:         Sample Device
+Class GUID:         {78a1c341-4539-11d3-b88d-00c04fad5171}
+Driver Version:     06/27/2021 10.52.5.515
+Signer Name:        WDKTestCert 39391,132689370309885134
+
+Published Name:     oem7.inf
+Original Name:      kmdfdriver1.inf
+Provider Name:      <Your manufacturer name>
+Class Name:         Sample Device
+Class GUID:         {78a1c341-4539-11d3-b88d-00c04fad5171}
+Driver Version:     06/24/2021 17.39.5.243
+Signer Name:        WDKTestCert 39391,132689370309885134
+
+Published Name:     oem51.inf
+Original Name:      lmu02n40.inf
+Provider Name:      Lexmark International
+Class Name:         Printers
+Class GUID:         {4d36e979-e325-11ce-bfc1-08002be10318}
+Driver Version:     01/28/2016 2.6.0.0
+Signer Name:        Microsoft Windows Hardware Compatibility Publisher
+
+Published Name:     oem54.inf
+Original Name:      lmu02o40.inf
+Provider Name:      Lexmark International
+Class Name:         Printers
+Class GUID:         {4d36e979-e325-11ce-bfc1-08002be10318}
+Driver Version:     01/26/2016 2.6.0.0
+Signer Name:        Microsoft Windows Hardware Compatibility Publisher
+
+Published Name:     oem47.inf
+Original Name:      lpcdevice.inf
+Provider Name:      NXP
+Class Name:         LpcDevice
+Class GUID:         {378029ad-c65d-40e3-b5fe-a740129416e4}
+Driver Version:     08/06/2009 7.0.7600.16385
+Signer Name:        NXP Semiconductors USA. Inc.
+
+Published Name:     oem14.inf
+Original Name:      lpcdevice.inf
+Provider Name:      NXP
+Class Name:         LpcDevice
+Class GUID:         {378029ad-c65d-40e3-b5fe-a740129416e4}
+Driver Version:     12/01/2014 13.54.20.544
+Signer Name:        NXP Semiconductors USA. Inc.
+
+Published Name:     oem74.inf
+Original Name:      mchpwinusbdevice.inf
+Provider Name:      Microchip Technology, Inc.
+Class Name:         Microchip Tools
+Class GUID:         {deb97e2c-8b0f-446f-b280-7cfac41c3bd9}
+Driver Version:     03/20/2018 1.0.0.8
+Signer Name:        Microchip Technology Inc.
+
+Published Name:     oem10.inf
+Original Name:      netathr10x.inf
+Provider Name:      Qualcomm Atheros Communications Inc.
+Class Name:         Network adapters
+Class GUID:         {4d36e972-e325-11ce-bfc1-08002be10318}
+Driver Version:     08/22/2018 12.0.0.722
+Signer Name:        Microsoft Windows Hardware Compatibility Publisher
+
+Published Name:     oem18.inf
+Original Name:      netathr10x.inf
+Provider Name:      Qualcomm Atheros Communications Inc.
+Class Name:         Network adapters
+Class GUID:         {4d36e972-e325-11ce-bfc1-08002be10318}
+Driver Version:     11/01/2017 12.0.0.448
+Signer Name:        Microsoft Windows Hardware Compatibility Publisher
+
+Published Name:     oem12.inf
+Original Name:      ntprint.inf
+Provider Name:      Microsoft
+Class Name:         Printers
+Class GUID:         {4d36e979-e325-11ce-bfc1-08002be10318}
+Driver Version:     06/21/2006 10.0.19041.630
+Signer Name:        Microsoft Windows
+
+Published Name:     oem34.inf
+Original Name:      pemicrowindrvr.inf
+Provider Name:      Jungo Connectivity
+Class Name:         Jungo Connectivity
+Class GUID:         {c671678c-82c1-43f3-d700-0049433e9a4b}
+Driver Version:     01/04/2017 12.4.0.0
+Signer Name:        P&E Microcomputer Systems, Inc.
+
+Published Name:     oem16.inf
+Original Name:      pe_libusb_interface.inf
+Provider Name:      Freescale, P&E Micro (http://www.pemicro.com/osbdm)
+Class Name:         LibUSB-Win32 Devices
+Class GUID:         {eb781aaf-9c70-4523-a5df-642a87eca567}
+Driver Version:     12/12/2011 1.2.3.0
+Signer Name:        P&E Microcomputer Systems, Inc.
+
+Published Name:     oem100.inf
+Original Name:      pe_winusb_interface.inf
+Provider Name:      Jungo LTD.
+Class Name:         Jungo Connectivity
+Class GUID:         {c671678c-82c1-43f3-d700-0049433e9a4b}
+Driver Version:     01/11/2017 12.4.0.0
+Signer Name:        P&E Microcomputer Systems, Inc.
+
+Published Name:     oem20.inf
+Original Name:      prnlxclv.inf
+Provider Name:      Lexmark International
+Class Name:         Printers
+Class GUID:         {4d36e979-e325-11ce-bfc1-08002be10318}
+Class Version:      4.0
+Driver Version:     04/21/2009 10.0.17134.1
+Signer Name:        Microsoft Windows
+
+Published Name:     oem102.inf
+Original Name:      prnms001.inf
+Provider Name:      Microsoft
+Class Name:         Printers
+Class GUID:         {4d36e979-e325-11ce-bfc1-08002be10318}
+Class Version:      4.0
+Driver Version:     06/21/2006 10.0.19041.1
+Signer Name:        Microsoft Windows
+
+Published Name:     oem76.inf
+Original Name:      prnms006.inf
+Provider Name:      Microsoft
+Class Name:         Printers
+Class GUID:         {4d36e979-e325-11ce-bfc1-08002be10318}
+Class Version:      4.0
+Driver Version:     11/29/2016 16.0.7629.4000
+Signer Name:        Microsoft Windows Hardware Compatibility Publisher
+
+Published Name:     oem101.inf
+Original Name:      prnms009.inf
+Provider Name:      Microsoft
+Class Name:         Printers
+Class GUID:         {4d36e979-e325-11ce-bfc1-08002be10318}
+Class Version:      4.0
+Driver Version:     06/21/2006 10.0.19041.1
+Signer Name:        Microsoft Windows
+
+Published Name:     oem96.inf
+Original Name:      rdb-link.inf
+Provider Name:      Code Red Technologies
+Class Name:         RDB-Link Driver
+Class GUID:         {fd4bfb81-fe38-4831-ab6f-1d097886c792}
+Driver Version:     08/06/2009 7.0.7600.16385
+Signer Name:        NXP Semiconductors USA. Inc.
+
+Published Name:     oem17.inf
+Original Name:      rt640x64.inf
+Provider Name:      Realtek
+Class Name:         Network adapters
+Class GUID:         {4d36e972-e325-11ce-bfc1-08002be10318}
+Driver Version:     03/23/2017 10.16.323.2017
+Signer Name:        Microsoft Windows Hardware Compatibility Publisher
+
+Published Name:     oem69.inf
+Original Name:      rtsbastor.inf
+Provider Name:      Realtek Semiconduct Corp.
+Class Name:         Memory technology devices
+Class GUID:         {4d36e970-e325-11ce-bfc1-08002be10318}
+Driver Version:     10/26/2017 10.0.16299.27059
+Signer Name:        Microsoft Windows Hardware Compatibility Publisher
+
+Published Name:     oem25.inf
+Original Name:      rtsp2stor.inf
+Provider Name:      Realtek Semiconductor Corp.
+Class Name:         Memory technology devices
+Class GUID:         {4d36e970-e325-11ce-bfc1-08002be10318}
+Driver Version:     03/13/2018 10.0.16299.29095
+Signer Name:        Microsoft Windows Hardware Compatibility Publisher
+
+Published Name:     oem90.inf
+Original Name:      rtsper.inf
+Provider Name:      Realtek Semiconductor Corp.
+Class Name:         Memory technology devices
+Class GUID:         {4d36e970-e325-11ce-bfc1-08002be10318}
+Driver Version:     02/27/2018 10.0.16299.21305
+Signer Name:        Microsoft Windows Hardware Compatibility Publisher
+
+Published Name:     oem82.inf
+Original Name:      rtspstor.inf
+Provider Name:      Realtek Semiconduct Corp.
+Class Name:         Memory technology devices
+Class GUID:         {4d36e970-e325-11ce-bfc1-08002be10318}
+Driver Version:     10/26/2017 10.0.16299.28163
+Signer Name:        Microsoft Windows Hardware Compatibility Publisher
+
+Published Name:     oem73.inf
+Original Name:      ti_ftdi_debug.inf
+Provider Name:      Texas Instruments
+Class Name:         Texas Instruments Debug Probes
+Class GUID:         {8e84f6ae-7786-4c95-a48a-14cf3b92c002}
+Driver Version:     09/22/2019 2.12.28.0
+Signer Name:        Texas Instruments Incorporated
+
+Published Name:     oem68.inf
+Original Name:      usbsamp.inf
+Provider Name:      TODO-Set-Provider
+Class Name:         Sample Device
+Class GUID:         {78a1c341-4539-11d3-b88d-00c04fad5171}
+Driver Version:     07/19/2021 14.4.21.952
+Signer Name:        WDKTestCert 39391,132689370309885134
+
+Published Name:     oem78.inf
+Original Name:      wacmultitouch.inf
+Provider Name:      Wacom Co Ltd.
+Class Name:         Wacom Multitouch
+Class GUID:         {6d3963a7-0f27-4d42-a63b-671f74fbddc9}
+Driver Version:     10/13/2014 1.0.2.3
+Signer Name:        Microsoft Windows Hardware Compatibility Publisher
+
+Published Name:     oem53.inf
+Original Name:      xds100bus.inf
+Provider Name:      Texas Instruments
+Class Name:         Texas Instruments Debug Probes
+Class GUID:         {8e84f6ae-7786-4c95-a48a-14cf3b92c002}
+Driver Version:     01/06/2017 2.12.24.0
+Signer Name:        Texas Instruments Incorporated
+
+Published Name:     oem85.inf
+Original Name:      xds110_cmsis20.inf
+Provider Name:      Texas Instruments Incorporated
+Class Name:         Texas Instruments Debug Probes
+Class GUID:         {8e84f6ae-7786-4c95-a48a-14cf3b92c002}
+Driver Version:     02/10/2020 2.0.0.2
+Signer Name:        Texas Instruments Incorporated
+
+Published Name:     oem2.inf
+Original Name:      xds110_debug.inf
+Provider Name:      Texas Instruments Incorporated
+Class Name:         Texas Instruments Debug Probes
+Class GUID:         {8e84f6ae-7786-4c95-a48a-14cf3b92c002}
+Driver Version:     04/05/2016 1.7.0.0
+Signer Name:        Texas Instruments Incorporated
+
+Published Name:     oem22.inf
+Original Name:      xds110_debug.inf
+Provider Name:      Texas Instruments Incorporated
+Class Name:         Texas Instruments Debug Probes
+Class GUID:         {8e84f6ae-7786-4c95-a48a-14cf3b92c002}
+Driver Version:     09/17/2018 1.8.0.0
+Signer Name:        Texas Instruments Incorporated
+
+Published Name:     oem87.inf
+Original Name:      xds110_debug.inf
+Provider Name:      Texas Instruments Incorporated
+Class Name:         Texas Instruments Debug Probes
+Class GUID:         {8e84f6ae-7786-4c95-a48a-14cf3b92c002}
+Driver Version:     10/08/2018 1.9.0.0
+Signer Name:        Texas Instruments Incorporated
+
+Published Name:     oem81.inf
+Original Name:      xds110_debug.inf
+Provider Name:      Texas Instruments Incorporated
+Class Name:         Texas Instruments Debug Probes
+Class GUID:         {8e84f6ae-7786-4c95-a48a-14cf3b92c002}
+Driver Version:     02/10/2020 2.0.0.2
+Signer Name:        Texas Instruments Incorporated
+
+Published Name:     oem19.inf
+Original Name:      xds560.inf
+Provider Name:      Texas Instruments Incorporated
+Class Name:         Texas Instruments Debug Probes
+Class GUID:         {8e84f6ae-7786-4c95-a48a-14cf3b92c002}
+Driver Version:     06/09/2016 3.0.2.0
+Signer Name:        Texas Instruments Incorporated
+
+
+C:\Users\WDKRemoteUser\Desktop\UsbSamp1>pnputil /add-driver usbsamp.inf /install
+Microsoft PnP Utility
+
+Adding driver package:  usbsamp.inf
+Driver package added successfully. (Already exists in the system)
+Published Name:         oem68.inf
+
+Total driver packages:  1
+Added driver packages:  1

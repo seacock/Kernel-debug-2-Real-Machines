@@ -1,0 +1,152 @@
+^C
+C:\Users\WDKRemoteUser\Desktop\UsbSamp1\test exe>usbsamp.exe -r 65536
+Attempting to open \\?\usb#vid_0951&pid_1666#e0d55ea4932ff49119c48ebf#{00873fdf-61a8-11d1-aa5e-00c04fb1728b}
+completeDeviceName = (\\?\usb#vid_0951&pid_1666#e0d55ea4932ff49119c48ebf#{00873fdf-61a8-11d1-aa5e-00c04fb1728b}\PIPE00)
+Opened successfully.
+^C
+C:\Users\WDKRemoteUser\Desktop\UsbSamp1\test exe>usbsamp.exe -w 65536
+Attempting to open \\?\usb#vid_0951&pid_1666#e0d55ea4932ff49119c48ebf#{00873fdf-61a8-11d1-aa5e-00c04fb1728b}
+completeDeviceName = (\\?\usb#vid_0951&pid_1666#e0d55ea4932ff49119c48ebf#{00873fdf-61a8-11d1-aa5e-00c04fb1728b}\PIPE01)
+Opened successfully.
+^C
+C:\Users\WDKRemoteUser\Desktop\UsbSamp1\test exe>usbsamp.exe -r 65536 -i pipe02
+Attempting to open \\?\usb#vid_0951&pid_1666#e0d55ea4932ff49119c48ebf#{00873fdf-61a8-11d1-aa5e-00c04fb1728b}
+completeDeviceName = (\\?\usb#vid_0951&pid_1666#e0d55ea4932ff49119c48ebf#{00873fdf-61a8-11d1-aa5e-00c04fb1728b}\pipe02)
+Failed to open (\\?\usb#vid_0951&pid_1666#e0d55ea4932ff49119c48ebf#{00873fdf-61a8-11d1-aa5e-00c04fb1728b}\pipe02) = 1
+C:\Users\WDKRemoteUser\Desktop\UsbSamp1\test exe>usbsamp.exe -w 65536 -o pipe03
+Attempting to open \\?\usb#vid_0951&pid_1666#e0d55ea4932ff49119c48ebf#{00873fdf-61a8-11d1-aa5e-00c04fb1728b}
+completeDeviceName = (\\?\usb#vid_0951&pid_1666#e0d55ea4932ff49119c48ebf#{00873fdf-61a8-11d1-aa5e-00c04fb1728b}\pipe03)
+Failed to open (\\?\usb#vid_0951&pid_1666#e0d55ea4932ff49119c48ebf#{00873fdf-61a8-11d1-aa5e-00c04fb1728b}\pipe03) = 1
+C:\Users\WDKRemoteUser\Desktop\UsbSamp1\test exe>usbsamp.exe -r 512 -i pipe04
+Attempting to open \\?\usb#vid_0951&pid_1666#e0d55ea4932ff49119c48ebf#{00873fdf-61a8-11d1-aa5e-00c04fb1728b}
+completeDeviceName = (\\?\usb#vid_0951&pid_1666#e0d55ea4932ff49119c48ebf#{00873fdf-61a8-11d1-aa5e-00c04fb1728b}\pipe04)
+Failed to open (\\?\usb#vid_0951&pid_1666#e0d55ea4932ff49119c48ebf#{00873fdf-61a8-11d1-aa5e-00c04fb1728b}\pipe04) = 1
+C:\Users\WDKRemoteUser\Desktop\UsbSamp1\test exe>usbsamp.exe -w 512 -o pipe05
+Attempting to open \\?\usb#vid_0951&pid_1666#e0d55ea4932ff49119c48ebf#{00873fdf-61a8-11d1-aa5e-00c04fb1728b}
+completeDeviceName = (\\?\usb#vid_0951&pid_1666#e0d55ea4932ff49119c48ebf#{00873fdf-61a8-11d1-aa5e-00c04fb1728b}\pipe05)
+Failed to open (\\?\usb#vid_0951&pid_1666#e0d55ea4932ff49119c48ebf#{00873fdf-61a8-11d1-aa5e-00c04fb1728b}\pipe05) = 1
+C:\Users\WDKRemoteUser\Desktop\UsbSamp1\test exe>usbsamp.exe -w 1024 -o pipe05 -r 1024 -i pipe04 -c 100 -v
+Attempting to open \\?\usb#vid_0951&pid_1666#e0d55ea4932ff49119c48ebf#{00873fdf-61a8-11d1-aa5e-00c04fb1728b}
+completeDeviceName = (\\?\usb#vid_0951&pid_1666#e0d55ea4932ff49119c48ebf#{00873fdf-61a8-11d1-aa5e-00c04fb1728b}\pipe04)
+Failed to open (\\?\usb#vid_0951&pid_1666#e0d55ea4932ff49119c48ebf#{00873fdf-61a8-11d1-aa5e-00c04fb1728b}\pipe04) = 1Attempting to open \\?\usb#vid_0951&pid_1666#e0d55ea4932ff49119c48ebf#{00873fdf-61a8-11d1-aa5e-00c04fb1728b}
+completeDeviceName = (\\?\usb#vid_0951&pid_1666#e0d55ea4932ff49119c48ebf#{00873fdf-61a8-11d1-aa5e-00c04fb1728b}\pipe05)
+Failed to open (\\?\usb#vid_0951&pid_1666#e0d55ea4932ff49119c48ebf#{00873fdf-61a8-11d1-aa5e-00c04fb1728b}\pipe05) = 1
+C:\Users\WDKRemoteUser\Desktop\UsbSamp1\test exe>usbsamp.exe -r 1024 -w 1024 -c 100 -x
+Attempting to open \\?\usb#vid_0951&pid_1666#e0d55ea4932ff49119c48ebf#{00873fdf-61a8-11d1-aa5e-00c04fb1728b}
+completeDeviceName = (\\?\usb#vid_0951&pid_1666#e0d55ea4932ff49119c48ebf#{00873fdf-61a8-11d1-aa5e-00c04fb1728b}\PIPE00)
+Opened successfully.
+Attempting to open \\?\usb#vid_0951&pid_1666#e0d55ea4932ff49119c48ebf#{00873fdf-61a8-11d1-aa5e-00c04fb1728b}
+completeDeviceName = (\\?\usb#vid_0951&pid_1666#e0d55ea4932ff49119c48ebf#{00873fdf-61a8-11d1-aa5e-00c04fb1728b}\PIPE01)
+Opened successfully.
+<PIPE01> W (0000) : request 001024 bytes -- 001024 bytes written
+<PIPE01> W (0001) : request 001024 bytes -- 000000 bytes written
+<PIPE01> W (0002) : request 001024 bytes -- 000000 bytes written
+<PIPE01> W (0003) : request 001024 bytes -- 000000 bytes written
+<PIPE01> W (0004) : request 001024 bytes -- 000000 bytes written
+<PIPE01> W (0005) : request 001024 bytes -- 000000 bytes written
+<PIPE01> W (0006) : request 001024 bytes -- 000000 bytes written
+<PIPE01> W (0007) : request 001024 bytes -- 000000 bytes written
+<PIPE01> W (0008) : request 001024 bytes -- 000000 bytes written
+<PIPE01> W (0009) : request 001024 bytes -- 000000 bytes written
+<PIPE01> W (0010) : request 001024 bytes -- 000000 bytes written
+<PIPE01> W (0011) : request 001024 bytes -- 000000 bytes written
+<PIPE01> W (0012) : request 001024 bytes -- 000000 bytes written
+<PIPE01> W (0013) : request 001024 bytes -- 000000 bytes written
+<PIPE01> W (0014) : request 001024 bytes -- 000000 bytes written
+<PIPE01> W (0015) : request 001024 bytes -- 000000 bytes written
+<PIPE01> W (0016) : request 001024 bytes -- 000000 bytes written
+<PIPE01> W (0017) : request 001024 bytes -- 000000 bytes written
+<PIPE01> W (0018) : request 001024 bytes -- 000000 bytes written
+<PIPE01> W (0019) : request 001024 bytes -- 000000 bytes written
+<PIPE01> W (0020) : request 001024 bytes -- 000000 bytes written
+<PIPE01> W (0021) : request 001024 bytes -- 000000 bytes written
+<PIPE01> W (0022) : request 001024 bytes -- 000000 bytes written
+<PIPE01> W (0023) : request 001024 bytes -- 000000 bytes written
+<PIPE01> W (0024) : request 001024 bytes -- 000000 bytes written
+<PIPE01> W (0025) : request 001024 bytes -- 000000 bytes written
+<PIPE01> W (0026) : request 001024 bytes -- 000000 bytes written
+<PIPE01> W (0027) : request 001024 bytes -- 000000 bytes written
+<PIPE01> W (0028) : request 001024 bytes -- 000000 bytes written
+<PIPE01> W (0029) : request 001024 bytes -- 000000 bytes written
+<PIPE01> W (0030) : request 001024 bytes -- 000000 bytes written
+<PIPE01> W (0031) : request 001024 bytes -- 000000 bytes written
+<PIPE01> W (0032) : request 001024 bytes -- 000000 bytes written
+<PIPE01> W (0033) : request 001024 bytes -- 000000 bytes written
+<PIPE01> W (0034) : request 001024 bytes -- 000000 bytes written
+<PIPE01> W (0035) : request 001024 bytes -- 000000 bytes written
+<PIPE01> W (0036) : request 001024 bytes -- 000000 bytes written
+<PIPE01> W (0037) : request 001024 bytes -- 000000 bytes written
+<PIPE01> W (0038) : request 001024 bytes -- 000000 bytes written
+<PIPE01> W (0039) : request 001024 bytes -- 000000 bytes written
+<PIPE01> W (0040) : request 001024 bytes -- 000000 bytes written
+<PIPE01> W (0041) : request 001024 bytes -- 000000 bytes written
+<PIPE01> W (0042) : request 001024 bytes -- 000000 bytes written
+<PIPE01> W (0043) : request 001024 bytes -- 000000 bytes written
+<PIPE01> W (0044) : request 001024 bytes -- 000000 bytes written
+<PIPE01> W (0045) : request 001024 bytes -- 000000 bytes written
+<PIPE01> W (0046) : request 001024 bytes -- 000000 bytes written
+<PIPE01> W (0047) : request 001024 bytes -- 000000 bytes written
+<PIPE01> W (0048) : request 001024 bytes -- 000000 bytes written
+<PIPE01> W (0049) : request 001024 bytes -- 000000 bytes written
+<PIPE01> W (0050) : request 001024 bytes -- 000000 bytes written
+<PIPE01> W (0051) : request 001024 bytes -- 000000 bytes written
+<PIPE01> W (0052) : request 001024 bytes -- 000000 bytes written
+<PIPE01> W (0053) : request 001024 bytes -- 000000 bytes written
+<PIPE01> W (0054) : request 001024 bytes -- 000000 bytes written
+<PIPE01> W (0055) : request 001024 bytes -- 000000 bytes written
+<PIPE01> W (0056) : request 001024 bytes -- 000000 bytes written
+<PIPE01> W (0057) : request 001024 bytes -- 000000 bytes written
+<PIPE01> W (0058) : request 001024 bytes -- 000000 bytes written
+<PIPE01> W (0059) : request 001024 bytes -- 000000 bytes written
+<PIPE01> W (0060) : request 001024 bytes -- 000000 bytes written
+<PIPE01> W (0061) : request 001024 bytes -- 000000 bytes written
+<PIPE01> W (0062) : request 001024 bytes -- 000000 bytes written
+<PIPE01> W (0063) : request 001024 bytes -- 000000 bytes written
+<PIPE01> W (0064) : request 001024 bytes -- 000000 bytes written
+<PIPE01> W (0065) : request 001024 bytes -- 000000 bytes written
+<PIPE01> W (0066) : request 001024 bytes -- 000000 bytes written
+<PIPE01> W (0067) : request 001024 bytes -- 000000 bytes written
+<PIPE01> W (0068) : request 001024 bytes -- 000000 bytes written
+<PIPE01> W (0069) : request 001024 bytes -- 000000 bytes written
+<PIPE01> W (0070) : request 001024 bytes -- 000000 bytes written
+<PIPE01> W (0071) : request 001024 bytes -- 000000 bytes written
+<PIPE01> W (0072) : request 001024 bytes -- 000000 bytes written
+<PIPE01> W (0073) : request 001024 bytes -- 000000 bytes written
+<PIPE01> W (0074) : request 001024 bytes -- 000000 bytes written
+<PIPE01> W (0075) : request 001024 bytes -- 000000 bytes written
+<PIPE01> W (0076) : request 001024 bytes -- 000000 bytes written
+<PIPE01> W (0077) : request 001024 bytes -- 000000 bytes written
+<PIPE01> W (0078) : request 001024 bytes -- 000000 bytes written
+<PIPE01> W (0079) : request 001024 bytes -- 000000 bytes written
+<PIPE01> W (0080) : request 001024 bytes -- 000000 bytes written
+<PIPE01> W (0081) : request 001024 bytes -- 000000 bytes written
+<PIPE01> W (0082) : request 001024 bytes -- 000000 bytes written
+<PIPE01> W (0083) : request 001024 bytes -- 000000 bytes written
+<PIPE01> W (0084) : request 001024 bytes -- 000000 bytes written
+<PIPE01> W (0085) : request 001024 bytes -- 000000 bytes written
+<PIPE01> W (0086) : request 001024 bytes -- 000000 bytes written
+<PIPE01> W (0087) : request 001024 bytes -- 000000 bytes written
+<PIPE01> W (0088) : request 001024 bytes -- 000000 bytes written
+<PIPE01> W (0089) : request 001024 bytes -- 000000 bytes written
+<PIPE01> W (0090) : request 001024 bytes -- 000000 bytes written
+<PIPE01> W (0091) : request 001024 bytes -- 000000 bytes written
+<PIPE01> W (0092) : request 001024 bytes -- 000000 bytes written
+<PIPE01> W (0093) : request 001024 bytes -- 000000 bytes written
+<PIPE01> W (0094) : request 001024 bytes -- 000000 bytes written
+<PIPE01> W (0095) : request 001024 bytes -- 000000 bytes written
+<PIPE01> W (0096) : request 001024 bytes -- 000000 bytes written
+<PIPE01> W (0097) : request 001024 bytes -- 000000 bytes written
+<PIPE01> W (0098) : request 001024 bytes -- 000000 bytes written
+<PIPE01> W (0099) : request 001024 bytes -- 000000 bytes written
+
+C:\Users\WDKRemoteUser\Desktop\UsbSamp1\test exe>
+C:\Users\WDKRemoteUser\Desktop\UsbSamp1\test exe>
+C:\Users\WDKRemoteUser\Desktop\UsbSamp1\test exe>usbsamp.exe -r 1024 -w 1024 -c 100 -xusbsamp.exe -r 1024 -w 1024 -c 100 -xusbsamp.exe -r 1024 -w 1024 -c 100 -x^Z
+Attempting to open \\?\usb#vid_0951&pid_1666#e0d55ea4932ff49119c48ebf#{00873fdf-61a8-11d1-aa5e-00c04fb1728b}
+completeDeviceName = (\\?\usb#vid_0951&pid_1666#e0d55ea4932ff49119c48ebf#{00873fdf-61a8-11d1-aa5e-00c04fb1728b}\PIPE00)
+Opened successfully.
+Attempting to open \\?\usb#vid_0951&pid_1666#e0d55ea4932ff49119c48ebf#{00873fdf-61a8-11d1-aa5e-00c04fb1728b}
+completeDeviceName = (\\?\usb#vid_0951&pid_1666#e0d55ea4932ff49119c48ebf#{00873fdf-61a8-11d1-aa5e-00c04fb1728b}\PIPE01)
+Opened successfully.
+<PIPE01> W (0000) : request 001024 bytes -- 001024 bytes written
+^C
